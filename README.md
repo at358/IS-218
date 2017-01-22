@@ -23,3 +23,5 @@
 <hr />
 
 <img src="myimage.jpg" />
+
+<div>This is a DIV container</div>
