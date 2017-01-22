@@ -9,3 +9,5 @@
 <p>Yes, that’s right – web pages can be a lot of fun. Learning how to create web pages is easy and <b>entertaining</b>. This is my second <i>paragraph</i>. I hope you like it.</p>
 
 <a href="http://www.google.com">Link to Google</a>
+
+<ul></ul>
