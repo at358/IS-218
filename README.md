@@ -21,3 +21,5 @@
 <blockquote>"A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."
  - Saint Exupery</blockquote>
 <hr />
+
+<img src="myimage.jpg" />
