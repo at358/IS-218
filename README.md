@@ -1,27 +1,31 @@
-<h1>My First Web Page</h1>
+<html>
+<head>
+    <title>Product Discount Calculator</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
 
-<h2>Headings Are Great Fun</h2> 
+<body>
+    <main>
+        <h1>Product Discount Calculator</h1>
+        <form action="display_discount.php" method="post">
 
-<p>This is my first <b>paragraph</b> in my new <i>webpage</i> This is going to be great. I am so excited I can hardly contain <b>myself</b>. Don’t you just love paragraphs? I find them very useful. </p>
+            <div id="data">
+                <label>Product Description:</label>
+                <input type="text" name="product_description"><br>
 
- <h2>Web Pages Are Exciting Too</h2> 
- 
-<p>Yes, that’s right – web pages can be a lot of fun. Learning how to create web pages is easy and <b>entertaining</b>. This is my second <i>paragraph</i>. I hope you like it.</p>
+                <label>List Price:</label>
+                <input type="text" name="list_price"><br>
 
-<a href="http://www.google.com">Link to Google</a>
+                <label>Discount Percent:</label>
+                <input type="text" name="discount_percent"><span>%</span><br>
+            </div>
 
-<ul>
-<li>Apples</li>
-<li>Bananas</li>
-<li>Pears</li>
-<li>Oranges</li>
-<li>Grapes</li>
-</ul>
+            <div id="buttons">
+                <label>&nbsp;</label>
+                <input type="submit" value="Calculate Discount"><br>
+            </div>
 
-<blockquote>"A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."
- - Saint Exupery</blockquote>
-<hr />
-
-<img src="myimage.jpg" />
-
-<div>This is a DIV container</div>
+        </form>
+    </main>
+</body>
+</html>
